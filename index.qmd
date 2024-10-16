@@ -1,0 +1,119 @@
+---
+format:
+  revealjs:
+    incremental: false
+    css: styles.css
+execute: 
+  echo: true
+footer: <a href="https://joelnitta.github.io/2024-10-17-targets">https://joelnitta.github.io/2024-10-17-targets</a>
+---
+
+## データ解析ワークフローを無駄<br>なく、再現可能にするRパッケージ「targets」の紹介
+
+**ニッタ ジョエル**
+
+<br><br><img src="https://docs.ropensci.org/targets/logo.svg" alt="drawing" height="350" style="float:right;margin:-200px 0px">
+
+<br><br>https://joelnitta.com
+
+## 発表のアウトライン
+
+- {targets}の紹介
+
+- ライブコーディング
+
+# {targets}の紹介
+
+## ワークフローについて話しましょう
+
+![Hadley Wickham's data analysis workflow chart](images/workflow_1.png)
+
+.footnote[R for Data Science https://r4ds.had.co.nz/]
+
+## ワークフローについて話しましょう
+
+![Hadley Wickham's data analysis workflow chart with icon showing part of it changed](images/workflow_2.png)
+
+ワークフローの**一部が変わってしまったら**、他のところが<br>**どう影響されるのか**？
+
+**どこまでやり直す必要があるのか？**
+
+::: {.aside}
+R for Data Science https://r4ds.had.co.nz/
+:::
+
+## 再現性について話しましょう
+
+### あなとのワークフローを再現できますか？
+
+- 今すぐに？
+
+- 数ヶ月（あるいは数年）後に？
+
+- 他の誰かが？
+
+<img src="https://1.bp.blogspot.com/-iG3QVEWl4dE/Wn1Vwtu1PwI/AAAAAAABKE8/8KR9vfXirfU5yXepByewkYZcrWqT-2EtQCLcBGAs/s800/computer_man3_cry.png" alt="drawing" height="250" style="float:right;margin:-100px 0px">
+
+## ワークフロー管理ツールに<br>任せましょう！
+
+たくさんあります：
+
+- `make`（bash）
+- `snakemake`（python）
+- `nextflow`（バイオインフォ系）
+- `cwl`
+
+などなど
+
+<img src="https://1.bp.blogspot.com/-JbBUDpFhZDM/Wn1VzKJupgI/AAAAAAABKFU/b2iI_-WbyWM_8Bjc0aZ2JgToTD-Tu25kQCLcBGAs/s800/computer_woman4_laugh.png" alt="drawing" height="250" style="float:right;margin:-150px 0px">
+
+## {targets}とは？
+
+::: {.columns}
+::: {.column}
+- Rの**ワークフロー管理パケージ**
+
+- ワークフローの**必要なところだけを走らせる**
+
+- ワークフローを書く段階で<br>**パラレル化する**
+
+- 計算結果がコードとデータと一致していることを証明する
+:::
+::: {.column}
+<img src="https://docs.ropensci.org/targets/logo.svg" alt="drawing" height="350" style="float:right">
+:::
+::: 
+
+## Resources 資料
+
+- [targets ワークショップの教材](https://swcarpentry-ja.github.io/targets-workshop)
+
+- [Bio'Pack'athonの発表](https://togotv.dbcls.jp/20220331.html)
+
+- Github https://github.com/ropensci/targets
+
+- Package website https://docs.ropensci.org/targets/
+
+- User manual https://books.ropensci.org/targets/
+
+- Targetopia https://wlandau.github.io/targetopia/
+
+- {tarchetypes} website https://docs.ropensci.org/tarchetypes/
+
+---
+## Live Coding
+
+- `tar_script()`: ワークフロープランを書く
+
+- `tar_visnetwork()`: ワークフローロを確認する
+
+- `tar_make()`: ワークフローを実行する
+
+- `tar_load()`: ターゲットを読み込む
+
+- `tar_outdated()`：次回走らせるところを予測する
+
+---
+class: inverse, center, middle
+
+# Live Coding
