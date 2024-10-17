@@ -84,16 +84,14 @@ R for Data Science <https://r4ds.had.co.nz/>
 
 ## 資料
 
-- [targets ワークショップの教材](https://swcarpentry-ja.github.io/targets-workshop)
+- **targets ワークショップの教材**
+  - [日本語](https://swcarpentry-ja.github.io/targets-workshop)
+  - [英語](https://carpentries-incubator.github.io/targets-workshop/)
 
 - [Bio'Pack'athonの発表](https://togotv.dbcls.jp/20220331.html)
 
-- Github https://github.com/ropensci/targets
-
-- Package website https://docs.ropensci.org/targets/
-
 - User manual https://books.ropensci.org/targets/
 
-- Targetopia https://wlandau.github.io/targetopia/
+- `targets` website https://docs.ropensci.org/targets/
 
-- {tarchetypes} website https://docs.ropensci.org/tarchetypes/
+- `tarchetypes` website https://docs.ropensci.org/tarchetypes/
