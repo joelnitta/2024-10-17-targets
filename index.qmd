@@ -22,27 +22,25 @@ footer: <a href="https://joelnitta.github.io/2024-10-17-targets">https://joelnit
 
 - ライブコーディング
 
-# {targets}の紹介
+# targetsの紹介
 
-## ワークフローについて話しましょう
+## ワークフローについて
 
 ![Hadley Wickham's data analysis workflow chart](images/workflow_1.png)
 
-.footnote[R for Data Science https://r4ds.had.co.nz/]
+::: {.aside}
+R for Data Science <https://r4ds.had.co.nz/>
+:::
 
-## ワークフローについて話しましょう
+## ワークフローについて
 
-![Hadley Wickham's data analysis workflow chart with icon showing part of it changed](images/workflow_2.png)
+![](images/workflow_2.png)
 
 ワークフローの**一部が変わってしまったら**、他のところが<br>**どう影響されるのか**？
 
 **どこまでやり直す必要があるのか？**
 
-::: {.aside}
-R for Data Science https://r4ds.had.co.nz/
-:::
-
-## 再現性について話しましょう
+## 再現性について
 
 ### あなとのワークフローを再現できますか？
 
@@ -54,7 +52,7 @@ R for Data Science https://r4ds.had.co.nz/
 
 <img src="https://1.bp.blogspot.com/-iG3QVEWl4dE/Wn1Vwtu1PwI/AAAAAAABKE8/8KR9vfXirfU5yXepByewkYZcrWqT-2EtQCLcBGAs/s800/computer_man3_cry.png" alt="drawing" height="250" style="float:right;margin:-100px 0px">
 
-## ワークフロー管理ツールに<br>任せましょう！
+## ワークフロー管理ツールに任せましょう！
 
 たくさんあります：
 
@@ -65,7 +63,7 @@ R for Data Science https://r4ds.had.co.nz/
 
 などなど
 
-<img src="https://1.bp.blogspot.com/-JbBUDpFhZDM/Wn1VzKJupgI/AAAAAAABKFU/b2iI_-WbyWM_8Bjc0aZ2JgToTD-Tu25kQCLcBGAs/s800/computer_woman4_laugh.png" alt="drawing" height="250" style="float:right;margin:-150px 0px">
+<img src="https://1.bp.blogspot.com/-JbBUDpFhZDM/Wn1VzKJupgI/AAAAAAABKFU/b2iI_-WbyWM_8Bjc0aZ2JgToTD-Tu25kQCLcBGAs/s800/computer_woman4_laugh.png" alt="drawing" height="250" style="float:right;margin:-100px 0px">
 
 ## {targets}とは？
 
@@ -84,7 +82,7 @@ R for Data Science https://r4ds.had.co.nz/
 :::
 ::: 
 
-## Resources 資料
+## 資料
 
 - [targets ワークショップの教材](https://swcarpentry-ja.github.io/targets-workshop)
 
